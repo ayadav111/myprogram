@@ -1,10 +1,10 @@
 # myprogram
 
-- How to run programe with given poolsize and number of jobs
+- **How to run programe with given poolsize and number of jobs**
 
     jobs=5 pool=3 go run main.go 
    
-- O/P
+**- O/P**
 ------
 created queue
 worker 1  job 1 produced value-----> {"worker":1,"job":1}
@@ -20,3 +20,4 @@ worker 2 consuming  data------> {"worker":2,"job":5}
 
 ------
    
+**Used source:** Medium, stackOverflow, goByExample
